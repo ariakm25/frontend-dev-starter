@@ -9,7 +9,7 @@
     "gulp:scripts": "gulp scripts",
     "gulp:images": "gulp images",
     "gulp:html": "gulp html",
-    "watch": "gulp watch",
+    "watch": "gulp build && gulp watch",
     "dev": "gulp build",
     "build": "cross-env NODE_ENV=production gulp build"
   },
