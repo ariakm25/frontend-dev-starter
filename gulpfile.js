@@ -127,7 +127,7 @@ gulp.task("watch", () => {
     .watch(`${imagesDir}/**/*.*`, gulp.series("images"))
     .on("change", browserSync.reload);
   gulp
-    .watch(`${htmlDir}/*.html`, gulp.series("html"))
+    .watch(`${htmlDir}/*/*.*`, gulp.series("html"))
     .on("change", browserSync.reload);
 });
 
