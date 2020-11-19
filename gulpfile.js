@@ -118,10 +118,10 @@ gulp.task("watch", () => {
   });
 
   gulp
-    .watch(`${scriptsDir}/app.js`, gulp.series("scripts"))
+    .watch(`${scriptsDir}/**/*.*`, gulp.series("scripts"))
     .on("change", browserSync.reload);
   gulp
-    .watch(`${stylesDir}/**/*.sass`, gulp.series("styles"))
+    .watch(`${stylesDir}/**/*.*`, gulp.series("styles"))
     .on("change", browserSync.reload);
   gulp
     .watch(`${imagesDir}/**/*.*`, gulp.series("images"))
