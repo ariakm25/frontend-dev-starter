@@ -48,7 +48,8 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-util": "^3.0.8",
     "imagemin-mozjpeg": "^9.0.0",
-    "tailwindcss": "^1.9.6",
+    "postcss": "^8.1.7",
+    "tailwindcss": "^2.0.1",
     "webpack": "^5.5.0",
     "webpack-stream": "^6.1.1"
   }
